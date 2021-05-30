@@ -1,3 +1,6 @@
+$bg-img : "./bijay.png";
+
+
 .x {
   color: red;
   position: absolute;
@@ -140,10 +143,10 @@
     margin: 0;
     padding: 0;
     z-index: -10;
-    background-image: url("./bijay.png");
+    background-image: url($bg-img);
     background-position: bottom center;
     background-repeat: no-repeat;
-    background-attachment: ablsolute;
+    //background-attachment: ablsolute;
     background-size: cover;
     background-color: #000000;
   }

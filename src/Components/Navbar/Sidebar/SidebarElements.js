@@ -86,6 +86,4 @@ export const SidebarBtn = styled(LinkR)`
         transition: all 0.2s ease-in-out;
         color: #000000;
         background-color:#FFFFFF;
-    }
-
-`;
+    }`;
