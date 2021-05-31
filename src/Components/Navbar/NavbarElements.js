@@ -8,7 +8,7 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   position: fixed;
   width:100%;
   top: 0;
@@ -31,9 +31,9 @@ export const NavbarContainer = styled.div`
   z-index: 10;
   width: 100%;
   padding: 0 24px;
-  max-width: 1100px;  
+  max-width: 1216px;  
   background: transparent;
-
+  font-size: 5rem;
   }
 `;
 export const NavLogo = styled(LinkR)`
@@ -44,11 +44,26 @@ export const NavLogo = styled(LinkR)`
   display: flex;
   align-items: center;
   margin-left: 24px;
-  font-weight: bold;
+//   font-weight: bold;
   text-decoration: none;  
   background: transparent;
   font-family: 'Goldman', cursive;
   src: url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&family=Goldman:wght@400;700&family=Varela+Round&display=swap');
+
+  transition: 0.3s;
+
+  text-shadow: 1px 1px 0 rgba(128, 128, 128, 0.247), 1px 2px 0 grey, 1px 3px 0 grey, 1px 2px 0 grey,
+    1px 5px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
+    5px 7px 15px black;
+
+  &:hover {
+    transition: 0.3s;
+    transform: scale(1.1)translate(-5%, -5%);
+    
+    text-shadow: 1px -1px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey,
+      1px -2px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey, 1px -2px 0 grey,
+      1px -4px 0 grey, 5px -3px 15px black, 5px -13px 25px #808080;
+  }
 
   }
 `;
@@ -73,7 +88,7 @@ export const NavMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
-  margin-right: -22px;
+  margin-right: 125px;
   background: transparent;
   
   @media screen and (max-width: 768px){
@@ -110,7 +125,7 @@ export const NavLinks = styled(LinkScroll)`
     border-left: 2px solid  rgb(255, 81, 0);
     border-right: 2px solid  rgb(255, 81, 0);
 
-    font-size: 1.9vw;
+    font-size: 2.3vw;
     border-radius: 10vw;
   }
 
@@ -128,23 +143,29 @@ export const NavBtn = styled.nav`
 `;
 
 export const NavBtnLink = styled.nav`
+
+    border-bottom: 4px solid rgb(255 81 0 / 41%);
+    border-left: 2px solid rgb(255 81 0 / 41%);
+    border-right: 2px solid rgb(255 81 0 / 41%);
+
+  border-radius: 10vw;
   padding:5px 20px;
-  border:0.1em solid #FFFFFF;
   margin:0 0.3em 0.3em 0;
-  border-radius:0.12em;
   box-sizing: border-box;
   text-decoration:none;
   font-family: 'Goldman', cursive;
   src: url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&family=Goldman:wght@400;700&family=Varela+Round&display=swap');
   font-weight:300;
   font-size: 1vw;
-  color:#FFFFFF;
+  color:white;
   text-align:center;
   transition: all 0.2s ease-in-out;
   &:hover{
-      transition: all 0.2s ease-in-out;
-      color: #000000;
-      background-color:rgb(255, 81, 0);
-      font-size: 1.1vw;
-  }
-`;
+    border-bottom: 2px solid  rgb(255, 81, 0);
+    border-left: 1px solid  rgb(255, 81, 0);
+    border-right: 1px solid  rgb(255, 81, 0);
+
+    transition: all 0.2s ease-in-out;
+    // color: blue;
+    font-size: 1.1vw;
+  }`;
