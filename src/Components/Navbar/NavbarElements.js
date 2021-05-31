@@ -40,11 +40,11 @@ export const NavLogo = styled(LinkR)`
   color: white;
   justify-self: flex-start;
   cursor: pointer;
-  font-size: 3rem;
+  font-size: 4rem;
   display: flex;
   align-items: center;
   margin-left: 24px;
-//   font-weight: bold;
+  font-weight: bold;
   text-decoration: none;  
   background: transparent;
   font-family: 'Goldman', cursive;
@@ -102,7 +102,7 @@ export const Navitem = styled.li`
   margin-right: 22px;
   background: transparent;
   font-family: 'Goldman', cursive;
-  font-size: 1.6vw;
+  font-size: 1.8rem;
   cursor: pointer;
   src: url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&family=Goldman:wght@400;700&family=Varela+Round&display=swap');
 
