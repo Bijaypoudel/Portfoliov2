@@ -29,7 +29,7 @@ const BackgroundSection = () => {
              <Particles params={{
                             "particles": {
                                 "number": {
-                                "value": 50,
+                                "value": 35,
                                 "density": {
                                     "enable": true,
                                     "value_area": 800
@@ -39,13 +39,13 @@ const BackgroundSection = () => {
                                 "value": "#ffffff"
                                 },
                                 "shape": {
-                                "type": "circle",
+                                "type": "",
                                 "stroke": {
                                     "width": 0,
                                     "color": "#000000"
                                 },
                                 "polygon": {
-                                    "nb_sides": 5
+                                    "nb_sides": 6
                                 },
                                 "image": {
                                     "src": "img/github",
@@ -149,7 +149,7 @@ const BackgroundSection = () => {
             <ContentH1 className="backText">
                 <div class="glitch" data-text="Bijay Poudel">Bijay Poudel</div>
                 <div class="glow">Bijay Poudel</div>
-                <p class="subtitle">﹒Developer . Personal Trainer .</p>
+                <p class="subtitle">﹒Software Developer . Personal Trainer . </p>
             </ContentH1>
         </>
         
