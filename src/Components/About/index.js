@@ -8,13 +8,14 @@ const About = () => {
    
     const aboutMeData = [
         {aboutMeTitle: 'About Me'},
-        {data: "Hi, I'm bj"},
-        {data: " I'm from nepal"},
-        {data: "I'm a CS graduate"},
-        {data: "I do"},
-        {data: "software development"},
-        {data: "web development"},
-        {data: "Database architecture"},
+        {data: "Hi, I'm Bijay"},
+        {data: "from nepal"},
+        {data: "Currently in U.S."},
+        {data: "I'm a software dev"},
+        {data: "fitness freak"},
+        {data: "and a curious mind"},
+        {data: ""},
+        {data: ""},
         {data: '<---------->'}
     ]
         
