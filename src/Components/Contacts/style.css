@@ -8,7 +8,7 @@
 .border {
   width: 100px;
   height: 10px;
-  background: #34495e;
+  background: rgb(255,81,0);
   margin: 40px auto;
 }
 
@@ -20,6 +20,7 @@
 }
 
 .contact-form-text {
+  font-family: 'Goldman',cursive;
   display: block;
   width: 100%;
   box-sizing: border-box;
@@ -32,16 +33,17 @@
   transition: 0.5s;
 }
 .contact-form-text:focus {
-  box-shadow: 0 0 10px 4px #34495e;
+  box-shadow: 0 0 10px 4px rgb(255,81,0);
 }
 textarea.contact-form-text {
   resize: none;
   height: 120px;
 }
 .contact-form-btn {
+  font-family: 'Goldman',cursive;
   float: right;
   border: 0;
-  background: #34495e;
+  background: rgba(255, 81, 0, 0.51);
   color: #fff;
   padding: 12px 50px;
   border-radius: 20px;
@@ -49,7 +51,10 @@ textarea.contact-form-text {
   transition: 0.5s;
 }
 .contact-form-btn:hover {
-  background: #2980b9;
+  background: rgb(255,81,0);
+}
+.contact-form-btn:focus {
+  background: rgb(28, 123, 5);
 }
 
 h1 {
