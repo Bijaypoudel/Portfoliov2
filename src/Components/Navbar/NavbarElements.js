@@ -40,7 +40,7 @@ export const NavLogo = styled(LinkR)`
   color: white;
   justify-self: flex-start;
   cursor: pointer;
-  font-size: 4rem;
+  font-size: 6rem;
   display: flex;
   align-items: center;
   margin-left: 24px;
@@ -48,13 +48,11 @@ export const NavLogo = styled(LinkR)`
   text-decoration: none;  
   background: transparent;
   font-family: 'Goldman', cursive;
-  src: url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&family=Goldman:wght@400;700&family=Varela+Round&display=swap');
-
   transition: 0.3s;
 
   text-shadow: 1px 1px 0 rgba(128, 128, 128, 0.247), 1px 2px 0 grey, 1px 3px 0 grey, 1px 2px 0 grey,
     1px 5px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
-    5px 7px 15px black;
+    5px 5px 15px #ff3d24;
 
   &:hover {
     transition: 0.3s;
@@ -62,7 +60,7 @@ export const NavLogo = styled(LinkR)`
     
     text-shadow: 1px -1px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey,
       1px -2px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey, 1px -2px 0 grey,
-      1px -4px 0 grey, 5px -3px 15px black, 5px -13px 25px #808080;
+      1px -4px 0 grey, 5px -3px 15px black, 5px -13px 25px #ff3d24;
   }
 
   }
@@ -144,9 +142,9 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled.nav`
 
-    border-bottom: 4px solid rgb(255 81 0 / 41%);
-    border-left: 2px solid rgb(255 81 0 / 41%);
-    border-right: 2px solid rgb(255 81 0 / 41%);
+    border-bottom: 4px solid #ff3d24;
+    border-left: 2px solid #ff3d24;
+    border-right: 2px solid #ff3d24;
 
   border-radius: 10vw;
   padding:5px 20px;
@@ -161,9 +159,9 @@ export const NavBtnLink = styled.nav`
   text-align:center;
   transition: all 0.2s ease-in-out;
   &:hover{
-    border-bottom: 2px solid  rgb(255, 81, 0);
-    border-left: 1px solid  rgb(255, 81, 0);
-    border-right: 1px solid  rgb(255, 81, 0);
+    border-bottom: 2px solid  #ff3d24;
+    border-left: 1px solid  #ff3d24;
+    border-right: 1px solid  #ff3d24;
 
     transition: all 0.2s ease-in-out;
     // color: blue;
