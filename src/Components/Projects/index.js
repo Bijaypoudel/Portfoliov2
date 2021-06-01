@@ -1,5 +1,4 @@
 import React, { useState, useRef } from 'react';
-import ReactDOM from 'react-dom';
 import { useSpring, animated } from 'react-spring';
 import './styles.scss';
 
@@ -127,25 +126,12 @@ function Image({ ratio, src }) {
   );
 }
 
-
-function Info() {
-    return (
-      <div className="info">
-        Springy cards from{' '}
-        <a target="_blank" href="https://bit.ly/382KSdo">
-          divjoy.com
-        </a>
-        <div className="notice">(best viewed at larger screen width)</div>
-      </div>
-    );
-  }
-
 const cards = [
   {
     title: 'University Student Advising System',
     description:
     "Developed intuitive Advising System for university of Louisiana Monroe capable of handling 9000 active users[React JS, Node JS, Express JS, MYSQL]",
-    image: 'http://ec2-3-135-197-150.us-east-2.compute.amazonaws.com/ulm.png',
+    image: 'https://i.imgur.com/mIXzjdk.png',
     imageRatio: 784 / 1016
   },
   {

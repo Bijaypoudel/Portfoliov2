@@ -2,8 +2,6 @@
 
 
 .skillsWrapper {
-//   margin: 0;
-//   padding: 10vh 0 10vh 0;
   width: 100%;
   height: 100%;
   display: flex;
@@ -15,11 +13,7 @@
 }
 
 .skillsmain {
-//   justify-content: center;
-//   align-items: center;
-//   display: grid;
-//   grid-template-columns: 1.5fr 1.5fr 1.5fr 1fr;
-//   grid-template-rows: 4.5fr 4.5fr 4.5fr;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -57,9 +51,6 @@
   }
 }
 
-
-
-
 #Skills_title, #Skills_sub_title {
     color:white;
     position: relative;
@@ -86,14 +77,10 @@ h2 {
     font-size: 1.5vw;
     font-family: 'Goldman', cursive;
     padding-bottom: 1vh;
-    // text-shadow: 1px 1px 0 rgba(128, 128, 128, 0.247), 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
-    // 1px 5px 0 grey, 1px 6px 0 grey, 1px 2px 0 grey, 1px 8px 0 grey,
-    // 5px 13px 15px black;
+
 }
 #Skills_sub_title{
     font-size: 3vw;
     left: 20%;
     padding-top: 10vw;
-    // transform: translate();
-
 }

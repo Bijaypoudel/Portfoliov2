@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
-import ReactDOM from 'react-dom'
 import { useSpring, useSprings, animated, interpolate } from 'react-spring'
-import css from './css.png';
 import './styles.scss'
 
 
@@ -96,9 +94,7 @@ const Skills = () => {
             },
         
     ]
-                                //     "Frontend":{<Stack image="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" background="#52649e" title="React JS"/>},
-                        
-                        
+
     return (
         <><br/><br/><br/><br/><br/><br/><br/><br/>
             <h1 id="Skills_title">SKILLS</h1>
