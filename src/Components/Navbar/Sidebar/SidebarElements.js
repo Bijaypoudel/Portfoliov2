@@ -10,7 +10,7 @@ export const SidebarContainer = styled.aside`
     height:100%;
     background: black;
     display: grid;
-    align-tems:center;
+    align-items:center;
     top:0;
     left: 0;
     transition: 0.3s ease-in-out;
@@ -44,7 +44,7 @@ export const SidebarMenu = styled.ul`
     padding-top: 50px;
 
     @media screen and (max-width: 480 px){
-        grid-templeate-rows: repeat(6, 60px);
+        grid-template-rows: repeat(6, 60px);
     }
 `;
 export const SidebarLink = styled(LinkScroll)`
